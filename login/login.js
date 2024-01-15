@@ -15,8 +15,6 @@ form.addEventListener("submit",(e)=>{
     }
 })
 
-// function for checking username and password
-
 function authentication(username,password){
     if(username === "admin" && password === "1234"){
         return true
